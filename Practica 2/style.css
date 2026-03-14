@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    margin: 0;
+
+    background: #00862d;
+    background: radial-gradient(circle, #ffffff 0%, #00862d 100%);
+}
+
+h2 {
+    text-align: center;
+    color: #00862d;
+    margin-bottom: 30px;
+}
+
+.contenedor {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.contenedor:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    border-left: 6px solid #00862d;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+h3 {
+    margin-top: 0;
+    color: #00862d;
+}
+
+input {
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #00862d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #005a00;
+}
+
+.mensaje-exito {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
